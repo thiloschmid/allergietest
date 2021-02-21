@@ -1,0 +1,59 @@
+body {
+    font-family: "Montserrat";
+    background: black;
+    color: white;
+}
+
+h1 {
+    padding: 1em;
+    text-align: center;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#card {
+    margin: 0 auto;
+    padding: 1em;
+    width: 700px;
+    background: white;
+    color: black;
+    border-radius: .5em;
+}
+
+#card h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#card-content {
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.portrait {
+    margin-right: 1em;
+    width: 30%;
+}
+
+table {
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+th {
+    text-align: left;
+    font-weight: bolder;
+}
+
+td {
+    padding: .5em;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}

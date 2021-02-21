@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Allergietest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="{{ url_for('static', filename='main.css')}}"
+    />
+  </head>
+  <body>
+    <h1>Allergietest</h1>
+    <div class="container">
+      <div id="card">
+        <h2>Allergieausweis</h2>
+        <div id="card-content">
+          <img
+            class="portrait"
+            src="{{ url_for('static', filename='portraits/portrait1.png')}}"
+            alt="portrait"
+          />
+          <table>
+            <tr>
+              <th>Name</th>
+              <td>Resham</td>
+            </tr>
+            <tr>
+              <th>Geburtstag</th>
+              <td>28. November</td>
+            </tr>
+            <tr>
+              <th>Blutgruppe</th>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th>Med. einnahme</th>
+              <td>Ja</td>
+            </tr>
+            <tr>
+              <th>Bekannte Allergien</th>
+              <td>Glutamat</td>
+            </tr>
+            <tr>
+              <th>Ausweisnummer</th>
+              <td>3 9 2 8 8</td>
+            </tr>
+            <tr>
+              <th>Ausstellungsland</th>
+              <td>Indien</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
