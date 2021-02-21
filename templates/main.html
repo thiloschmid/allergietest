@@ -11,7 +11,7 @@
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href="{{ url_for('static', filename='main.css')}}"
+      href="{{ url_for('static', filename='main.css') }}"
     />
   </head>
   <body>
@@ -22,37 +22,37 @@
         <div id="card-content">
           <img
             class="portrait"
-            src="{{ url_for('static', filename='portraits/portrait1.png')}}"
+            src="{{ url_for('static', filename='portraits/portrait1.png') }}"
             alt="portrait"
           />
           <table>
             <tr>
               <th>Name</th>
-              <td>Resham</td>
+              <td>{{ person.name }}</td>
             </tr>
             <tr>
               <th>Geburtstag</th>
-              <td>28. November</td>
+              <td>{{ person.geburi }}</td>
             </tr>
             <tr>
               <th>Blutgruppe</th>
-              <td>0</td>
+              <td>{{ person.bg }}</td>
             </tr>
             <tr>
               <th>Med. einnahme</th>
-              <td>Ja</td>
+              <td>{{ person.medis }}</td>
             </tr>
             <tr>
               <th>Bekannte Allergien</th>
-              <td>Glutamat</td>
+              <td>{{ person.allergien }}</td>
             </tr>
             <tr>
               <th>Ausweisnummer</th>
-              <td>3 9 2 8 8</td>
+              <td>{{ person.nummer }}</td>
             </tr>
             <tr>
               <th>Ausstellungsland</th>
-              <td>Indien</td>
+              <td>{{ person.land }}</td>
             </tr>
           </table>
         </div>
