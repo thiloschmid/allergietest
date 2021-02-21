@@ -2,6 +2,9 @@ certifi==2020.12.5
 click==7.1.2
 Flask==1.1.2
 itsdangerous==1.1.0
-Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
-MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1610127590546/work
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+pip==21.0.1
+setuptools==49.6.0.post20210108
 Werkzeug==1.0.1
+wheel==0.36.2
