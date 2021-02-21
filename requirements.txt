@@ -1,0 +1,7 @@
+certifi==2020.12.5
+click==7.1.2
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1610127590546/work
+Werkzeug==1.0.1
